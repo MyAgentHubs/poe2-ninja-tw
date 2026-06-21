@@ -1,0 +1,26 @@
+name: AI BD 助手需求
+description: 说说你希望 AI BD 助手怎么帮你看 BD
+title: "[AI BD] "
+labels: ["ai-bd"]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 你想解决什么问题
+      description: 例如判断伤害、生存、蓝耗、手感、造价、成型路径或替代装备。
+    validations:
+      required: true
+  - type: input
+    id: build_url
+    attributes:
+      label: 示例 BD 链接
+      placeholder: https://poe.ninja/poe2/builds/...
+    validations:
+      required: false
+  - type: textarea
+    id: expected
+    attributes:
+      label: 你希望 AI 输出什么
+      placeholder: 例如：告诉我这个 BD 的核心机制、最低预算、换装顺序和不推荐新手抄的原因。
+    validations:
+      required: false

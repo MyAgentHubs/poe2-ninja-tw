@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 官网反馈表
+    url: https://poe2.myagenthubs.com/#feedback
+    about: 不想登录 GitHub 的玩家可以直接用官网反馈。

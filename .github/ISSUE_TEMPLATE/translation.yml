@@ -1,0 +1,41 @@
+name: 翻译错误或漏翻
+description: 反馈技能、装备、天赋、词缀或 hover 没翻好
+title: "[翻译] "
+labels: ["translation"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: poe.ninja 链接
+      description: 请贴出出现问题的 poe.ninja PoE2 build 链接。
+      placeholder: https://poe.ninja/poe2/builds/...
+    validations:
+      required: true
+  - type: textarea
+    id: original
+    attributes:
+      label: 原文或截图说明
+      description: 哪个英文或半英半中的内容没有翻译正确？
+      placeholder: 例如：Requires / Dex / increased Evasion Rating 等仍然显示英文。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 你期望显示成什么
+      description: 如果知道国际服繁中叫法，可以直接写出来。
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: 出现位置
+      options:
+        - 技能 / 辅助
+        - 装备 / 词缀
+        - 天赋 / 关键天赋
+        - hover 弹窗
+        - BD 导出
+        - 其他
+    validations:
+      required: true

@@ -1,0 +1,38 @@
+name: 显示或功能问题
+description: 反馈插件显示错乱、页面卡顿或功能异常
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: poe.ninja 链接
+      placeholder: https://poe.ninja/poe2/builds/...
+    validations:
+      required: false
+  - type: dropdown
+    id: browser
+    attributes:
+      label: 浏览器
+      options:
+        - Chrome
+        - Edge
+        - Firefox
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      description: 请描述你看到的问题，最好附截图。
+      placeholder: 例如：hover 装备时文本重复、弹窗崩掉、页面卡顿等。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: 1. 打开链接；2. hover 某个装备；3. 出现问题。
+    validations:
+      required: false
