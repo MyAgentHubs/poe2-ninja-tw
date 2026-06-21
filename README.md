@@ -39,6 +39,8 @@ Chrome / Edge 商店不可访问时，官网提供离线安装包和安装步骤
 发现技能、装备、天赋、词缀或 hover 仍有英文时，欢迎提交反馈：
 
 - 官网反馈表：<https://poe2.myagenthubs.com/#feedback>
+- 翻译错误 / 漏翻：<https://github.com/MyAgentHubs/poe2-ninja-tw/issues/1>
+- 显示 bug / hover 异常：<https://github.com/MyAgentHubs/poe2-ninja-tw/issues/2>
 - GitHub Issues：<https://github.com/MyAgentHubs/poe2-ninja-tw/issues>
 
 最好附上 poe.ninja build 链接、截图和具体没有翻译好的文字。
@@ -51,7 +53,7 @@ Chrome / Edge 商店不可访问时，官网提供离线安装包和安装步骤
 
 欢迎在 Discussions 里写下你希望 AI BD 助手解决的问题：
 
-<https://github.com/MyAgentHubs/poe2-ninja-tw/discussions>
+<https://github.com/MyAgentHubs/poe2-ninja-tw/discussions/3>
 
 ## 隐私
 
